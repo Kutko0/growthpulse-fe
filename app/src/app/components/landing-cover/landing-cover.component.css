@@ -14,10 +14,6 @@
     height: 85vh;
 }
 
-#main-navbar {
-    background-color: transparent;
-}
-
 #action-landing-container {
     color: var(--silver);
     margin-top: 25vh;

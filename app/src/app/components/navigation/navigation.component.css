@@ -1,0 +1,15 @@
+#navigation-row {
+    background: var(--dark-grey);
+}
+
+#main-navbar {
+    background-color: transparent;
+}
+
+#main-navbar .nav-link{
+    color: white !important;
+}
+
+#main-navbar .navbar-brand{
+    color: white !important;
+}

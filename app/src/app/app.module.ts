@@ -7,13 +7,19 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { ValuePropositionLandingComponent } from './components/value-proposition-landing/value-proposition-landing.component';
 import { LandingCoverComponent } from './components/landing-cover/landing-cover.component';
+import { LoginComponent } from './pages/login/login.component';
+import { PlatformComponent } from './pages/platform/platform.component';
+import { RegisterComponent } from './pages/register/register.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
     ValuePropositionLandingComponent,
-    LandingCoverComponent
+    LandingCoverComponent,
+    LoginComponent,
+    PlatformComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
