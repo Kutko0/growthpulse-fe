@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "growthpulse:build:production"
+              "buildTarget": "growthpulse:build:production"
             },
             "development": {
-              "browserTarget": "growthpulse:build:development"
+              "buildTarget": "growthpulse:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -72,7 +72,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "growthpulse:build"
+            "buildTarget": "growthpulse:build"
           }
         },
         "test": {
@@ -95,5 +95,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "8944b2a1-0525-4253-b5e5-25ae92bbc80f"
   }
 }
